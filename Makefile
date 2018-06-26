@@ -20,6 +20,6 @@ LDLIBS =  -lglut -lGL -lGLU -lX11 -lm
 .c:
 	$(CC)  $@.c $(INCDIRS) $(LIBDIRS) $(LDLIBS) -o $@
 
-.cc:
-	$(C++)  -O $@.cc -g $(INCDIRS) $(LIBDIRS) $(LDLIBS) -o $@
+.cpp:
+	$(C++)  -O $@.cpp -g $(INCDIRS) $(LIBDIRS) $(LDLIBS) -o $@
 
