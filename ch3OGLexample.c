@@ -1,3 +1,5 @@
+#include <GL/gl.h>
+#include <GL/glu.h>
 #include <GL/glut.h>      // (or others, depending on the system in use)
 
 void init (void)
